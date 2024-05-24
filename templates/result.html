@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Page</title>
+    <title>News Result</title>
     <link rel="stylesheet" href="static/style.css">
+    <style>
+        h2 {
+            color: {{ color }};
+        }
+    </style>
 </head>
 <body>
 
@@ -20,15 +25,7 @@
 </header>
 
 <div class="container">
-    <form method="POST" action="{{ url_for('check_news') }}">
-        <h2>Enter News Headline:</h2>
-        <input type="text" class="textbox" name="headline" placeholder="Write the news headline..." required>
-
-        <h2>Enter Actual News Plot:</h2>
-        <textarea class="textbox-large" name="plot" placeholder="Enter the actual news plot..." required></textarea>
-
-        <button type="submit">Check News</button>
-    </form>
+    <h2>{{ result }}</h2>
 </div>
 
 <footer>
