@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Page</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+<header>
+    <h1>News Portal</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for("contact") }}">Contact</a></li>
+            <li><a href={{ url_for("about") }}>About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Enter News Headline:</h2>
+    <input type="text" class="textbox" placeholder="Write the news headline...">
+
+    <h2>Enter Actual News Plot:</h2>
+    <textarea class="textbox-large" placeholder="Enter the actual news plot..."></textarea>
+</div>
+
+<footer>
+    <p>&copy; 2024 News Portal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
