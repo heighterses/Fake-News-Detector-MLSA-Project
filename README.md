@@ -1,7 +1,8 @@
 # Fake News Detector 📰✅❌
 
 # Slides Deck
-https://stdntpartners-my.sharepoint.com/:p:/g/personal/mabdullah_binaftab_studentambassadors_com/EXTFp3LsvnpAiuNnYCj1MaMBl7axquALAsMPZfTeD_EjmQ?e=KjOcyP
+[https://stdntpartners-my.sharepoint.com/:p:/g/personal/mabdullah_binaftab_studentambassadors_com/EXTFp3LsvnpAiuNnYCj1MaMBl7axquALAsMPZfTeD_EjmQ?e=KjOcyP
+](https://stdntpartners-my.sharepoint.com/:p:/g/personal/mabdullah_binaftab_studentambassadors_com/EXTFp3LsvnpAiuNnYCj1MaMBjiBErlrlXHHoUlr65mp31w?e=2O15pa)
 
 ## Introduction
 The Fake News Detector is a Flask web application designed to verify the authenticity of news articles. In today's digital age, the spread of fake news can have detrimental effects on society, leading to misinformation and confusion. This application aims to combat the proliferation of fake news by providing users with a tool to quickly assess the credibility of news sources.
