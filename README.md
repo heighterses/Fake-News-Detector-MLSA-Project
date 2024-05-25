@@ -32,9 +32,5 @@ To run the Fake News Detector locally, follow these steps:
 - HTML
 - CSS
 
-## Contributors
-- John Doe (@johndoe)
-- Jane Smith (@janesmith)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Link to Website
+https://fake-news-detect.azurewebsites.net/
